@@ -328,13 +328,17 @@ iframe{
 	padding: 0%;
 	width: 100%; 
 	}
+	form{
+		padding: 4%;		
+		font-size: 160%;
+	}
 	.icon{
-	height: 5%;
-	width: 5%;
-	padding: 0;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-}
+		height: 5%;
+		width: 5%;
+		padding: 0;
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+	}
   	.inf{
 		margin-left: 5%;
 		margin-right: 5%; 
@@ -348,6 +352,12 @@ iframe{
 	.navli{
   		display: table-row;
   	}
+  	.navli a{
+		font-size: 140%; 
+	}
+	.shortpost a{
+		font-size: 160%;
+	}
   	.content{
 		padding: 1%;
 		margin-top: 1%;
@@ -368,8 +378,23 @@ iframe{
 
   	}
   	.hdr{	
-		font-size: 180%;
+  		margin-top: 2%;
+  		height: 10vh;
+		font-size: 200%;
 	}
+	.btn{
+		width: 40%;
+
+	}
+	.btn .backToPosts{
+		width: 140%;
+		font-size: 140%;
+		margin:5%;
+	}
+	.fileUpload {
+	     width: 40%;
+	}
+
   	#shgi,#shfsh,#shcont,#shoff,#shposts{
   		padding: 3%;
   		width: 100%;

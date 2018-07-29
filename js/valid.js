@@ -54,12 +54,14 @@ jQuery(function($){
          	var cm=$("#comment").val();
          	var fl=$("#addfile").val().replace(/C:\\fakepath\\/i, '');
             $.ajax({
-                url: '/handler.php',
+                url: '/wp-content/themes/themesvtlnr/handler.php',
                 type: 'post',
                 data: {'email':em,'comment':cm,'filename':fl},
                 datatype:"json",
                 success: function(){
                 	$("#resform").show('fast');
+                	$(".fileloaded").text('');
+         			$(".fileloaded").hide('fast');
                 	$("#email").val('');
          			$("#addfile").val('');
          			$("#comment").val('');

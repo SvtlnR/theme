@@ -30,7 +30,12 @@
 		</div>	
 	</header>
 	<nav class ="navmenu"> 
-		<?php 
+		<div id="sandwich">
+				<div class="stripe"></div>
+				<div class="stripe"></div>
+				<div class="stripe"></div>
+		</div>
+		<?php 	
 		wp_nav_menu( array('theme_location' => 'menu-1', 'container'=>'', 'depth'=>'1', 'echo'=>'1')); ?>  
 		<!-- <div id="sandwich">
 				<div class="stripe"></div>

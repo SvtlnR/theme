@@ -82,7 +82,7 @@
 				<div class="err" id="errmail">Invalid e-mail</div>
 				<div class="err" id="errfile">File has to be .pdf,.jpeg or .jpg</div>
 				<div class="fileloaded"></div>
-				<form action="/handler.php" method="post">
+				<form action="/wp-content/themes/themesvtlnr/handler.php" method="post">
 					
 					<div class="inpfield">
 						
